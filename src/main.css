@@ -1,4 +1,22 @@
 @charset "UTF-8";
+.carousel-item img {
+  height: 450px;
+  /* Adjust this value to your desired height */
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors

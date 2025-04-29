@@ -1,3 +1,21 @@
 $primary: #ed502e;
 
+.carousel-item img {
+    height: 450px;
+    /* Adjust this value to your desired height */
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
