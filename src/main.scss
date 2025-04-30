@@ -17,5 +17,20 @@ $primary: #ed502e;
     background: rgba(0, 0, 0, 0.6);
 }
 
+.section-header h6 {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 70px;
+        height: 1px;
+        background-color: $primary;
+    }
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";

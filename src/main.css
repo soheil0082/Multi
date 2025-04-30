@@ -17,6 +17,20 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
+.section-header h6, .section-header .h6 {
+  position: relative;
+}
+.section-header h6::before, .section-header .h6::before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 1px;
+  background-color: #ed502e;
+}
+
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
