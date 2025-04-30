@@ -23,7 +23,7 @@
 .section-header h6::before, .section-header .h6::before {
   content: "";
   position: absolute;
-  left: 60px;
+  left: 70px;
   top: 50%;
   transform: translateY(-50%);
   width: 70px;
